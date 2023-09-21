@@ -13,7 +13,7 @@ const indexroute = require("./routes/indexrouter");
 const homepagecontroller = require("./controllers/homecontroller");
 const usercontroller = require("./controllers/usercontroller");
 
-mongoose.connect("mongodb://52.201.90.123:27017/", { useNewUrlParser: true });
+mongoose.connect("mongodb://54.175.218.175:27017/", { useNewUrlParser: true });
 mongoose.connection.once("open", (error) => {
   if (error) {
     console.log("connecting error with database");
